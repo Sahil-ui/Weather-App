@@ -1,4 +1,6 @@
+
 .App {
+
   text-align: center;
 }
 
@@ -36,3 +38,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~mdb-react-ui-kit/dist/css/mdb.min.css";
+

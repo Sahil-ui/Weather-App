@@ -1,0 +1,121 @@
+
+
+.container{
+    width: 100%;
+    max-width: 607px;
+    height: 829px;
+    margin: 75px auto;
+    border-radius:  17px;
+    text-align: center;
+    background-image: url("../Asset/lake-6785552_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding: 6% 
+
+   
+}
+
+.top-bar input{
+    flex: 1;
+    background: rgb(221, 221, 221);
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+
+
+
+
+.weather-image{
+    justify-content: center;
+    width: 100%;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 210%;
+    font-weight:500;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    font-size: 225%;
+    font-weight: 500;
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.element{
+    
+    justify-content: center;
+    color: #ffff;
+    margin: 25px;
+    
+}
+
+
+
+.text{
+   
+    font-size: 170%;
+    font-weight: 500;
+
+}
+
+.icon{
+    margin-top: 20px;
+    
+}
+
+.humidity-percentage{
+    font-size: 150%;
+    font-weight: 500;
+
+}
+
+.wind-rate{
+    font-size: 150%;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 768px
+) {
+    .container{
+        border-radius:10px;    ;
+        -webkit-border-radius:10px    ;
+        -moz-border-radius:10px    ;
+        -ms-border-radius:10px    ;
+        -o-border-radius:10px    ;
+}
+.top-bar input{
+    display: flex;
+    
+}
+    
+}
