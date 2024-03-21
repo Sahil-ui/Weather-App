@@ -45,6 +45,7 @@ location[0].innerHTML = data.name
 
 
     <div className= 'container'>
+    {/* <img src= {require('../Asset/alexa-z0u_hSsOVjw-unsplash.jpg')} alt="" srcset="" /> */}
         <div className= 'top-bar '>
 
     <input type="text" className= "cityinput"  placeholder='search' />
